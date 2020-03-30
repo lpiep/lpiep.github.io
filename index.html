@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Logan Piepmeier</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<script src="https://kit.fontawesome.com/1fa0064c4e.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="w3-row">
+        <div class="w3-third">
+            <div id="header" class="w3-container">
+                <h1>Logan Piepmeier</h1>
+                <p>Seattle, WA</p>
+                <p>
+
+                </p>
+                <div class="w3-padding">
+                    <div class="w3-card-4 w3-hover-green">
+                        <i class="fa fa-phone-square w3-margin w3-large"></i>508-404-6354
+                    </div>
+                </div>
+                <div class="w3-padding">
+                    <div class="w3-card-4 w3-hover-green" href="mailto:logan.piepmeier@gmail.com">
+                        <i class="fa fa-envelope w3-margin w3-large"></i>logan.piepmeier@gmail.com
+                    </div>
+                </div>
+                <div class="w3-padding">
+                    <div class="w3-card-4 w3-hover-green" href="https://www.linkedin.com/in/logan-piepmeier-09545b25/">
+                        <i class="fa fa-linkedin w3-margin w3-large"></i>LinkedIn
+                    </div>
+                </div>
+            </div>
+
+            <div id="print" class="w3-container">
+                <a href="Piepmeier_Resume.pdf">
+                    <i class="fa fa-file-pdf w3-margin w3-large"></i>Printable Resume
+                </a>
+            </div>
+            <div class="w3-container">
+                <a onclick="document.getElementById('about').style.display='block'">>
+                    About this page.
+                </a>
+            </div>
+            <div id="about" class="w3-modal">
+                <div class="w3-modal-content">
+                    <div class="w3-container w3-highway-blue">
+                        <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                        <h1>About this Page</h1>
+                        <p>
+                            I wrote this page using W3 Schools' basic <a href="https://www.w3schools.com/w3css/">W3CSS</a> framework. It is a barebones website that consists of a single file and not a lick of Javascript (except a couple "onclick" attributes). After all, I'm not a web developer.
+                        </p>
+                        <p>
+                            W3.CSS's motto is "Make it as simple as possible, but not simpler," and I think that makes sense for this page.
+                        </p>
+                        <p>
+                            Use your browser's inspector if you'd like to see how it works.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-twothird">
+            <div class="w3-container">
+                <h2>
+                    What I Can Do
+                </h2>
+
+                <!-- Python -->
+                <div class="w3-third w3-padding">
+                    <div class="w3-card-4 w3-hover-green" onclick="document.getElementById('skill-python').style.display='block'"><i class="fab fa-python w3-margin w3-large"></i>Python</div>
+                </div>
+                <div id="skill-python" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-container w3-highway-blue">
+                            <span onclick="document.getElementById('skill-python').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                            <h1>Python</h1>
+                            <p>
+                                I've used Python as my go-to general purpose programming language.
+                            </p>
+                            <p>
+                                A huge time-saver recently has been a script I wrote to utilize the an image compressing API, tinypng, to resize and compress images , then automatically post them to our site's gallery.
+                                
+                            </p>
+                            <p>
+                                I also have experience scripting GIS tasks in the ArcPy library for ArcGIS and using geographic SQL databases. At UW I built a Python application that calculated a large set of geographic calculations in a PSQL database.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- R -->
+                <div class="w3-third w3-padding">
+                    <div class="w3-card-4 w3-hover-green" onclick="document.getElementById('skill-r').style.display='block'"><i class="fab fa-r-project w3-margin w3-large"></i>R</div>
+                </div>
+                <div id="skill-r" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-container w3-highway-blue">
+                            <h1>R</h1>
+                            <p>
+                                I've used R extensively in my work at UW and Ecotope for exploratory analyses, visualizations and dashboards, and data processing. I like working in the TidyR set of packages and using ggplot2 for visualization. I've also worked with geographic data using R.</p>
+                            <p>
+                                At UW and Ecotope, I helped to set up dashboards in Shiny to capture and monitor incoming data from sensor networks.
+                            </p>
+
+                            <span onclick="document.getElementById('skill-r').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SQL -->
+                <div class="w3-third w3-padding">
+                    <div class="w3-card-4 w3-hover-green" onclick="document.getElementById('skill-sql').style.display='block'"><i class="fas fa-database w3-margin w3-large"></i>SQL</div>
+                </div>
+                <div id="skill-sql" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-container w3-highway-blue">
+                            <span onclick="document.getElementById('skill-sql').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                            <h1>SQL</h1>
+                            <p>SQL is cool.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CAD -->
+                <div class="w3-third w3-padding">
+                    <div class="w3-card-4 w3-hover-green" onclick="document.getElementById('skill-cad').style.display='block'"><i class="fas fa-drafting-compass w3-margin w3-large"></i>CAD</div>
+                </div>
+                <div id="skill-cad" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-display-container">
+                            <img src="cad-example.png" alt="CAD Example" style="width:100%" class="w3-opacity-max" />
+                            <div class="w3-display-topleft w3-container">
+                                <h1>CAD</h1>
+                                <p>I have experience using CAD software to design custom bicycle frames and small parts for production. The majority of my work has been 2D schematics for use by bicycle frame builders, fitters, and assemblers. I have also produced 3D CAD drawings for production 3D-printed/injection-molded parts.</p>
+                                <p>I have experience working in Solidworks and Vectorworks</p>
+                            </div>
+                            <span onclick="document.getElementById('skill-cad').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GIS -->
+                <div class="w3-third w3-padding">
+                    <div class="w3-card-4 w3-hover-green" onclick="document.getElementById('skill-gis').style.display='block'"><i class="fas fa-globe-americas w3-margin w3-large"></i>GIS</div>
+                </div>
+                <div id="skill-gis" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-container w3-highway-blue">
+                            <span onclick="document.getElementById('skill-gis').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                            <h1>GIS</h1>
+                            <p>GIS is cool.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Viz -->
+                <div class="w3-third w3-padding">
+                    <div class="w3-card-4 w3-hover-green" onclick="document.getElementById('skill-viz').style.display='block'"><i class="fas fa-chart-line w3-margin w3-large"></i>Data Visualization</div>
+                </div>
+                <div id="skill-viz" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-container w3-highway-blue">
+                            <span onclick="document.getElementById('skill-viz').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                            <h1>Data Visualization</h1>
+                            <p>Data Viz is cool.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-container">
+                <h2>Where I've Worked</h2>
+                <!-- R&E -->
+                <div class="w3-padding">
+                    <div class="w3-container w3-card-4">
+                        <h3>Technical Manager</h3>
+                        <h5>Rodriguez Bicycles</h5>
+                        <h6>Sep 2018 - March 2020</h6>
+                        <ul>
+                            <li>
+                                good stuff
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Ecotope -->
+                <div class="w3-padding">
+                    <div class="w3-container w3-card-4">
+                        <h3>Quantitative Analyst</h3>
+                        <h5>Ecotope Inc.</h5>
+                        <h6>Nov 2017 - Aug 2018</h6>
+                        <ul>
+                            <li>
+                                Automating, testing, and visualizing data streams from remote monitoring equipment
+                            </li>
+                            <li>
+                                Programming support for energy simulation software
+                            </li>
+                            <li>
+                                Evaluating performance of experimental configurations of HVAC equipment
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- UW -->
+                <div class="w3-padding">
+                    <div class="w3-container w3-card-4">
+                        <h3>Research Scientist</h3>
+                        <h5>University of Washington Environmental and Occupational Health Sciences</h5>
+                        <h6>Dec 2014 - Nov 2017</h6>
+                        <ul>
+                            <li>
+                                Maintained MySQL and PostgreSQL databases of study participant information, geographic data, and air pollution measurements
+                            </li>
+                            <li>
+                                Improved process for calculating 100s of model inputs, significantly reducing time required for data delivery
+                            </li>
+                            <li>
+                                Maintained thorough documentation for data quality issues and resolutions
+                            </li>
+                            <li>
+                                Compiled custom air pollution exposure estimates for researchers’ analyses
+                            </li>
+                            <li>
+                                Collected air pollution samples and conducted study participant interviews
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-container">
+                <h2>Where I Went to School</h2>
+                <div class="w3-padding">
+                    <div class="w3-container w3-card-4">
+                        <h3>University of Vermont</h3>
+                        <h4>College of Engineering and Mathematical Sciences</h4>
+                        <h5>B.S. Applied Mathematics - 2011</h5> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
