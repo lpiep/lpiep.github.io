@@ -6,16 +6,31 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
 <script src="https://kit.fontawesome.com/1fa0064c4e.js" crossorigin="anonymous"></script>
+<style>
+    h6 {
+        font-style: italic;
+    }
+
+</style>
 
 <body>
+    <div class="w3-row w3-center w3-red">
+        <h1>Don't Judge Me!</h1>
+        <p>This page is in progress. Things will be wrong, messy, and/or non-functional.</p>
+    </div>
     <div class="w3-row">
         <div class="w3-third">
             <div id="header" class="w3-container">
                 <h1>Logan Piepmeier</h1>
-                <p>Seattle, WA</p>
-                <p>
+                <h6>
+                    I'm a Seattle-based professional interested in working with data and streamlining how organizations work.</h6>
+                <h6>
+                    I like things like digging into the particulars of a dataset and where it came from. I like making simple, informative visualizations. I like figuring out how to structure business systems so that people can do their best work easily.
+                </h6>
+                <h6>
+                    Let's chat.
+                </h6>
 
-                </p>
                 <div class="w3-padding">
                     <div class="w3-card-4 w3-hover-green">
                         <i class="fa fa-phone-square w3-margin w3-large"></i>508-404-6354
@@ -35,12 +50,12 @@
 
             <div id="print" class="w3-container">
                 <a href="Piepmeier_Resume.pdf">
-                    <i class="fa fa-file-pdf w3-margin w3-large"></i>Printable Resume
+                    <i class="fas fa-file-pdf w3-margin w3-large"></i>Printable Resume
                 </a>
             </div>
             <div class="w3-container">
-                <a onclick="document.getElementById('about').style.display='block'">>
-                    About this page.
+                <a href="#" onclick="document.getElementById('about').style.display='block'">
+                    <i class="fas fa-question w3-margin w3-large"></i>About this page
                 </a>
             </div>
             <div id="about" class="w3-modal">
@@ -66,6 +81,9 @@
                 <h2>
                     What I Can Do
                 </h2>
+                <h6>
+                    Click each for more information.
+                </h6>
 
                 <!-- Python -->
                 <div class="w3-third w3-padding">
@@ -81,7 +99,7 @@
                             </p>
                             <p>
                                 A huge time-saver recently has been a script I wrote to utilize the an image compressing API, tinypng, to resize and compress images , then automatically post them to our site's gallery.
-                                
+
                             </p>
                             <p>
                                 I also have experience scripting GIS tasks in the ArcPy library for ArcGIS and using geographic SQL databases. At UW I built a Python application that calculated a large set of geographic calculations in a PSQL database.
@@ -169,63 +187,83 @@
                     </div>
                 </div>
             </div>
+            <!--Job History -->
             <div class="w3-container">
                 <h2>Where I've Worked</h2>
-                <!-- R&E -->
                 <div class="w3-padding">
                     <div class="w3-container w3-card-4">
-                        <h3>Technical Manager</h3>
-                        <h5>Rodriguez Bicycles</h5>
-                        <h6>Sep 2018 - March 2020</h6>
-                        <ul>
-                            <li>
-                                good stuff
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Ecotope -->
-                <div class="w3-padding">
-                    <div class="w3-container w3-card-4">
-                        <h3>Quantitative Analyst</h3>
-                        <h5>Ecotope Inc.</h5>
-                        <h6>Nov 2017 - Aug 2018</h6>
-                        <ul>
-                            <li>
-                                Automating, testing, and visualizing data streams from remote monitoring equipment
-                            </li>
-                            <li>
-                                Programming support for energy simulation software
-                            </li>
-                            <li>
-                                Evaluating performance of experimental configurations of HVAC equipment
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- UW -->
-                <div class="w3-padding">
-                    <div class="w3-container w3-card-4">
-                        <h3>Research Scientist</h3>
-                        <h5>University of Washington Environmental and Occupational Health Sciences</h5>
-                        <h6>Dec 2014 - Nov 2017</h6>
-                        <ul>
-                            <li>
-                                Maintained MySQL and PostgreSQL databases of study participant information, geographic data, and air pollution measurements
-                            </li>
-                            <li>
-                                Improved process for calculating 100s of model inputs, significantly reducing time required for data delivery
-                            </li>
-                            <li>
-                                Maintained thorough documentation for data quality issues and resolutions
-                            </li>
-                            <li>
-                                Compiled custom air pollution exposure estimates for researchers’ analyses
-                            </li>
-                            <li>
-                                Collected air pollution samples and conducted study participant interviews
-                            </li>
-                        </ul>
+                        <!--R&E-->
+                        <div class="w3-row">
+                            <div class="w3-third w3-padding w3-right-align">
+                                <h4>Rodriguez Bicycles</h4>
+                                <i>Sep 2018 - March 2020</i>
+                            </div>
+                            <div class="w3-twothird w3-padding">
+                                <h4>Technical Manager</h4>
+                                <p>
+                                    <!--what is it-->
+                                    Rodriguez Bicycles is a custom bicycle producer that has been manufacturing in Seattle for over 45 years.
+                                </p>
+                                <p>
+                                    <!--what did i do-->
+                                    As in any small business, I wore many hats. I managed our sales and marketing team, designed custom bicycle frames for customers, and maintainted our website and internal business software.
+                                </p>
+                                <p>
+                                    <!--notable takeaways/accomplishments-->
+                                    I helped our management team formalize and clarify our organizational structure and procedures, freeing up our owners to focus on new opportunities while trusting that the day-to-day operations of the business were running smoothly.
+                                </p>
+                            </div>
+                        </div>
+                        <hr />
+
+                        <!--Ecotope-->
+                        <div class="w3-row">
+                            <div class="w3-third w3-padding w3-right-align">
+                                <h4>Ecotope Inc.</h4>
+                                <h6>Nov 2017 - Aug 2018</h6>
+                            </div>
+                            <div class="w3-twothird w3-padding">
+                                <h4>Quantitative Analyst</h4>
+                                <p>
+                                    <!--what is it-->
+                                    Ecotope is a research and design consulting firm focused on energy efficient building construction.
+                                </p>
+                                <p>
+                                    <!--what did i do-->
+
+                                </p>
+                                <p>
+                                    <!--notable takeaways/accomplishments-->
+
+                                </p>
+                            </div>
+                        </div>
+                        <hr />
+
+                        <!--UW-->
+                        <div class="w3-row">
+                            <div class="w3-third w3-padding w3-right-align">
+                                <h4>University of Washington</h4>
+                                <h6>Dec 2014 - Nov 2017</h6>
+                            </div>
+                            <div class="w3-twothird w3-padding">
+                                <h4>Research Scientist / Data Analyst</h4>
+                                <p>
+                                    <!--what is it-->
+                                    The Kaufman Lab, in the Department of Environmental and Occopational Health, models air pollution and studies its effect on human health. 
+                                </p>
+                                <p>
+                                    <!--what did i do-->
+
+                                </p>
+                                <p>
+                                    <!--notable takeaways/accomplishments-->
+
+                                </p>
+                            </div>
+                        </div>
+                        <hr />
+
                     </div>
                 </div>
             </div>
@@ -233,9 +271,9 @@
                 <h2>Where I Went to School</h2>
                 <div class="w3-padding">
                     <div class="w3-container w3-card-4">
-                        <h3>University of Vermont</h3>
-                        <h4>College of Engineering and Mathematical Sciences</h4>
-                        <h5>B.S. Applied Mathematics - 2011</h5> 
+                        <h4>University of Vermont</h4>
+                        <h5>College of Engineering and Mathematical Sciences</h5>
+                        <h6>B.S. Applied Mathematics - 2011</h6>
                     </div>
                 </div>
             </div>
