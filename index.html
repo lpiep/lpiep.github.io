@@ -15,69 +15,62 @@
         height: 100%;
     }
 
-    .full-height {
-        height: 100%;
-    }
-
 </style>
 
-<body class="w3-light-grey">
-    <div class="w3-row w3-center w3-red">
+<body class="w3-blue-grey">
+    <!--<div class="w3-row w3-center w3-red">
         <h1>Don't Judge Me!</h1>
         <p>This page is in progress. Things will be wrong, messy, and/or non-functional.</p>
-    </div>
+    </div>-->
     <div class="w3-row">
         <div class="w3-third">
             <div class="w3-container w3-padding">
-                <div class="w3-card-4 w3-padding w3-blue-grey">
+                <div class="w3-card-4 w3-padding w3-light-grey">
                     <h1>Logan Piepmeier</h1>
                     <h6>
                         I'm a Seattle-based professional interested in working with data and streamlining how organizations work.</h6>
                     <h6>
                         I like things like digging into the particulars of a dataset and where it came from. I like making simple, informative visualizations. I like figuring out how to structure business systems so that people can do their best work easily.
                     </h6>
-                    <h6>
-                        Let's chat.
-                    </h6>
                 </div>
             </div>
             <div class="w3-container w3-padding">
                 <div class="w3-padding">
-                    <div class="w3-card-4 w3-blue-grey w3-hover-green" onclick="window.open('tel:+15084046354','_self');">
+                    <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="window.open('tel:+15084046354','_self');">
                         <i class="fa fa-phone-square w3-margin w3-large"></i>508-404-6354
                     </div>
                 </div>
                 <div class="w3-padding">
-                    <div class="w3-card-4 w3-blue-grey w3-hover-green" onclick="window.open('mailto:logan.piepmeier@gmail.com','_self')">
+                    <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="window.open('mailto:logan.piepmeier@gmail.com','_self')">
                         <i class="fa fa-envelope w3-margin w3-large"></i>logan.piepmeier@gmail.com
                     </div>
                 </div>
                 <div class="w3-padding">
-                    <div class="w3-card-4 w3-blue-grey w3-hover-green" onclick="window.open('https://www.linkedin.com/in/logan-piepmeier-09545b25/')">
+                    <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="window.open('https://www.linkedin.com/in/logan-piepmeier-09545b25/')">
                         <i class="fa fa-linkedin w3-margin w3-large"></i>LinkedIn
                     </div>
                 </div>
-            </div>
 
-            <div class="w3-container">
-                <a href="#" onclick="document.getElementById('about').style.display='block'">
-                    <i class="fas fa-question w3-margin w3-large"></i>About this page
-                </a>
-            </div>
-            <div id="about" class="w3-modal">
-                <div class="w3-modal-content">
-                    <div class="w3-container w3-highway-blue">
-                        <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                        <h1>About this Page</h1>
-                        <p>
-                            I wrote this page using W3 Schools' basic <a href="https://www.w3schools.com/w3css/">W3CSS</a> framework. It is a barebones website that consists of a single file and not a lick of Javascript (except a couple "onclick" attributes). After all, I'm not a web developer.
-                        </p>
-                        <p>
-                            W3.CSS's motto is "Make it as simple as possible, but not simpler," and I think that makes sense for this page.
-                        </p>
-                        <p>
-                            Use your browser's inspector if you'd like to see how it works.
-                        </p>
+                <div class="w3-padding">
+                    <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="document.getElementById('about').style.display='block'">
+                        <i class="fas fa-question w3-margin w3-large"></i>About this page
+                    </div>
+                </div>
+                <div id="about" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <div class="w3-container w3-light-grey">
+                            <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                            <h1>About this Page</h1>
+                            <p>
+                                I wrote this page using W3 Schools' basic <a href="https://www.w3schools.com/w3css/">W3CSS</a> framework. It is a barebones website that consists of a single file and not a lick of Javascript (except a couple "onclick" attributes). After all, I'm not a web developer.
+                            </p>
+                            <p>
+                                W3.CSS's motto is "Make it as simple as possible, but not simpler," and I think that makes sense for this page.
+                            </p>
+                            <p>
+                                Use your browser's inspector if you'd like to see how it works.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -93,41 +86,46 @@
                 <div class="w3-padding">
 
                     <!-- Python -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4 w3-blue-grey w3-hover-green" onclick="document.getElementById('skill-python').style.display='block'"><i class="fab fa-python w3-margin w3-large"></i>Python</div>
+                    <div class="w3-col w3-padding" style="width:20%">
+                        <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="document.getElementById('skill-python').style.display='block'"><i class="fab fa-python w3-margin w3-large"></i>Python</div>
                     </div>
                     <div id="skill-python" class="w3-modal">
                         <div class="w3-modal-content">
-                            <div class="w3-container w3-highway-blue">
+                            <div class="w3-container w3-light-grey">
                                 <span onclick="document.getElementById('skill-python').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                                 <h1>Python</h1>
                                 <p>
-                                    I've used Python as my go-to general purpose programming language.
+                                    I've used Python as my go-to general purpose programming language. I’ve built simple scripts to make my life easier, utilities to access APIs and to load and transform data, and scripts to automate GIS tasks in the ArcPy library for ArcGIS.
                                 </p>
                                 <p>
-                                    A huge time-saver recently has been a script I wrote to utilize the an image compressing API, tinypng, to resize and compress images , then automatically post them to our site's gallery.
-
-                                </p>
-                                <p>
-                                    I also have experience scripting GIS tasks in the ArcPy library for ArcGIS and using geographic SQL databases. At UW I built a Python application that calculated a large set of geographic calculations in a PSQL database.
+                                    I am interested in learning more about performing data analysis in Python using the Pandas and Numpy libraries, and hope to find time to study this on my own soon.
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <!-- R -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4 w3-blue-grey w3-hover-green" onclick="document.getElementById('skill-r').style.display='block'"><i class="fab fa-r-project w3-margin w3-large"></i>R</div>
+                    <div class="w3-col w3-padding" style="width:20%">
+                        <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="document.getElementById('skill-r').style.display='block'"><i class="fab fa-r-project w3-margin w3-large"></i>R</div>
                     </div>
                     <div id="skill-r" class="w3-modal">
                         <div class="w3-modal-content">
-                            <div class="w3-container w3-highway-blue">
+                            <div class="w3-container w3-light-grey">
                                 <h1>R</h1>
                                 <p>
-                                    I've used R extensively in my work at UW and Ecotope for exploratory analyses, visualizations and dashboards, and data processing. I like working in the TidyR set of packages and using ggplot2 for visualization. I've also worked with geographic data using R.</p>
-                                <p>
-                                    At UW and Ecotope, I used R to set up data pipelines to process data from sensor networks and to build dashboards in Shiny to display real-time visualizations of that data.
+                                    I've used R extensively in my work for exploratory analyses, data processing pipelines, visualizations, and dashboards. I like working in the TidyR set of packages and using ggplot2 for visualization. I've also worked with geographic data in R.
                                 </p>
+                                <p>
+                                    At UW and Ecotope, I used R to set up data pipelines to process data from sensor networks and to build dashboards in Shiny to display real-time visualizations of that data as well as R Markdown to create dynamic reports that automatically update to include the latest data.
+                                </p>
+                                <hr />
+                                <p class="w3-center w3-small">
+                                    A screenshot of an R Shiny Dashboard I worked extensively on to monitor experimental water heating equipment:
+                                </p>
+                                <div class="w3-card-4 w3-padding">
+                                    <img src="shiny-example.png" class="w3-image">
+                                </div>
+
 
                                 <span onclick="document.getElementById('skill-r').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                             </div>
@@ -135,71 +133,92 @@
                     </div>
 
                     <!-- SQL -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4 w3-blue-grey w3-hover-green" onclick="document.getElementById('skill-sql').style.display='block'"><i class="fas fa-database w3-margin w3-large"></i>SQL</div>
+                    <div class="w3-col w3-padding" style="width:20%">
+                        <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="document.getElementById('skill-sql').style.display='block'"><i class="fas fa-database w3-margin w3-large"></i>SQL</div>
                     </div>
                     <div id="skill-sql" class="w3-modal">
                         <div class="w3-modal-content">
-                            <div class="w3-container w3-highway-blue">
+                            <div class="w3-container w3-light-grey">
                                 <span onclick="document.getElementById('skill-sql').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                                 <h1>SQL</h1>
-                                <p>SQL is cool.</p>
+                                <p>
+                                    I’ve worked with MySQL and PostgreSQL databases, including the PostGIS spatial extension of PostgreSQL.
+                                </p>
+                                <p>
+                                    My most in-depth SQL work was at the University of Washington. I maintained a large database that included spatial information, study participant info (including protected personally identifiable information), and air pollution exposure model outputs. I constructed complex queries to provide researchers with customized datasets. I also identified new datasets to incorporate into our database and processed them for compatibility with our system.
+                                </p>
+                                <p>
+                                    I led a project to build a PostgreSQL spatial database (PostGIS) in order to more efficiently store and analyze our spatial data, resulting in significantly increased efficiency in calculating geographic model inputs and therefore a quicker turnaround time for producing model outputs.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                     <!-- CAD -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4  w3-blue-grey w3-hover-green" onclick="document.getElementById('skill-cad').style.display='block'"><i class="fas fa-drafting-compass w3-margin w3-large"></i>CAD</div>
+                    <div class="w3-col w3-padding" style="width:20%">
+                        <div class="w3-card-4  w3-light-grey w3-hover-green" onclick="document.getElementById('skill-cad').style.display='block'"><i class="fas fa-drafting-compass w3-margin w3-large"></i>CAD</div>
                     </div>
                     <div id="skill-cad" class="w3-modal">
                         <div class="w3-modal-content">
-                            <div class="w3-display-container">
-                                <img src="cad-example.png" alt="CAD Example" style="width:100%" class="w3-opacity-max" />
-                                <div class="w3-display-topleft w3-container">
-                                    <h1>CAD</h1>
-                                    <p>I have experience using CAD software to design custom bicycle frames and small parts for production. The majority of my work has been 2D schematics for use by bicycle frame builders, fitters, and assemblers. I have also produced 3D CAD drawings for production 3D-printed/injection-molded parts.</p>
-                                    <p>I have experience working in Solidworks and Vectorworks</p>
-                                </div>
+                            <div class="w3-container w3-light-grey">
                                 <span onclick="document.getElementById('skill-cad').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                <h1>CAD</h1>
+                                <p>I have experience using CAD software to design custom bicycle frames and small parts for production. The majority of my work has been 2D schematics for use by bicycle frame builders, fitters, and assemblers. I have also produced 3D CAD drawings for production 3D-printed/injection-molded parts.</p>
+                                <p>I have experience working in Solidworks and Vectorworks.</p>
+
+                                <hr />
+                                <p class="w3-center w3-small">
+                                    An example bicycle fit drawing:
+                                </p>
+                                <div class="w3-card-4">
+
+                                    <img src="cad-example.png" alt="CAD Example" style="width:100%" class="w3-image" />
+
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- GIS -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4  w3-blue-grey w3-hover-green" onclick="document.getElementById('skill-gis').style.display='block'"><i class="fas fa-globe-americas w3-margin w3-large"></i>GIS</div>
+                    <div class="w3-col w3-padding" style="width:20%">
+                        <div class="w3-card-4  w3-light-grey w3-hover-green" onclick="document.getElementById('skill-gis').style.display='block'"><i class="fas fa-globe-americas w3-margin w3-large"></i>GIS</div>
                     </div>
                     <div id="skill-gis" class="w3-modal">
                         <div class="w3-modal-content">
-                            <div class="w3-container w3-highway-blue">
+                            <div class="w3-container w3-light-grey">
                                 <span onclick="document.getElementById('skill-gis').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                                 <h1>GIS</h1>
-                                <p>GIS is cool.</p>
+                                <p>
+                                    I’ve worked primarily in ArcGIS, including scripting with the ArcPy Python package. I also work in R using a variety of geographic libraries and am familiar with the PostGIS extension for the PostgreSQL database backend (see my “SQL” skill section).
+                                </p>
+                                <p>
+                                    I’ve produced interactive and static maps for use in data quality control, but I’m interested in improving my skills at creating “prettier”, ready-to-publish maps and interactives.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Data Viz -->
+                    <!-- Data Viz
                     <div class="w3-third w3-padding">
-                        <div class="w3-card-4  w3-blue-grey w3-hover-green" onclick="document.getElementById('skill-viz').style.display='block'"><i class="fas fa-chart-line w3-margin w3-large"></i>Data Visualization</div>
+                        <div class="w3-card-4  w3-light-grey w3-hover-green" onclick="document.getElementById('skill-viz').style.display='block'"><i class="fas fa-chart-line w3-margin w3-large"></i>Data Visualization</div>
                     </div>
                     <div id="skill-viz" class="w3-modal">
                         <div class="w3-modal-content">
-                            <div class="w3-container w3-highway-blue">
+                            <div class="w3-container w3-light-grey">
                                 <span onclick="document.getElementById('skill-viz').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                                 <h1>Data Visualization</h1>
                                 <p>Data Viz is cool.</p>
                             </div>
                         </div>
                     </div>
+                    -->
                 </div>
             </div>
             <!--Job History -->
             <div class="w3-container">
                 <h2>Where I've Worked</h2>
                 <div class="w3-padding">
-                    <div class="w3-container w3-card-4 w3-blue-grey">
+                    <div class="w3-container w3-card-4 w3-light-grey">
                         <!--R&E-->
                         <div class="w3-row">
                             <div class="w3-third w3-padding w3-right-align">
@@ -272,7 +291,7 @@
             <div class="w3-container">
                 <h2>Where I Went to School</h2>
                 <div class="w3-padding">
-                    <div class="w3-container w3-card-4  w3-blue-grey">
+                    <div class="w3-container w3-card-4  w3-light-grey">
                         <h4>University of Vermont</h4>
                         <h5>College of Engineering and Mathematical Sciences</h5>
                         <h6>B.S. Applied Mathematics - 2011</h6>
