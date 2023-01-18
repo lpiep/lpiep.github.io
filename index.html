@@ -14,10 +14,28 @@
     body {
         height: 100%;
     }
+    .purple-0 { background-color: #5A2F71 ; color: rgb(230, 230, 230)}	/* Primary color */
+    .purple-1 { background-color: #0E0711 ; color: rgb(230, 230, 230)}
+    .purple-2 { background-color: #331A41 ; color: rgb(230, 230, 230)}
+    .purple-3 { background-color: #8144A2 ; color: rgb(230, 230, 230)}
+    .purple-4 { background-color: #B661E5 ; color: rgb(230, 230, 230)}
+
+    .rose-0 { background-color: #8D3560 ; color: rgb(230, 230, 230)}	/* Secondary color (1) */
+    .rose-1 { background-color: #15080E ; color: rgb(230, 230, 230)}
+    .rose-2 { background-color: #501D36 ; color: rgb(230, 230, 230)}
+    .rose-3 { background-color: #C94E8A ; color: rgb(230, 230, 230)}
+    .rose-4 { background-color: #F25FA7 ; color: rgb(230, 230, 230)}
+
+    .blue-0 { background-color: #413575 ; color: rgb(230, 230, 230)}	/* Tertiary color */
+    .blue-1 { background-color: #0A0812 ; color: rgb(230, 230, 230)}
+    .blue-2 { background-color: #241E43 ; color: rgb(230, 230, 230)}
+    .blue-3 { background-color: #5E4DA8 ; color: rgb(230, 230, 230)}
+    .blue-4 { background-color: #826CE7 ; color: rgb(230, 230, 230)}
+
 
 </style>
 
-<body class="w3-blue-grey">
+<body class="w3-light-grey">
     <!--<div class="w3-row w3-center w3-red">
         <h1>Don't Judge Me!</h1>
         <p>This page is in progress. Things will be wrong, messy, and/or non-functional.</p>
@@ -25,48 +43,42 @@
     <div class="w3-row">
         <div class="w3-third">
             <div class="w3-container w3-padding">
-                <div class="w3-card-4 w3-padding w3-light-grey">
+                <div class="w3-card-4 w3-padding rose-0">
                     <h1>Logan Piepmeier</h1>
-                    <!--<
-                        h6>
-                        I'm a data professional based in Bellingham, WA interested in working with data and streamlining how organizations work.</h6>
-                    <h6>
-                        I like things like digging into the particulars of a dataset and where it came from. I like making simple, informative visualizations. I like figuring out how to structure business systems so that people can do their best work easily.
-                    </h6>
-                    --> 
-                    <h6>I'm a data professional based in Bellingham, WA. I work on managing air pollution data for public health research. </h6>
+                    <h6>I'm a data professional based in Bellingham, WA. I work on managing air pollution data for public health research
+                        and helping people learn to do data science with R.</h6>
                 </div>
             </div>
             <div class="w3-container w3-padding">
                 <div class="w3-padding">
-                    <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="window.open('tel:+15084046354','_self');">
+                    <div class="w3-card-4 blue-0 w3-hover-grey" onclick="window.open('tel:+15084046354','_self');">
                         <i class="fa fa-phone-square w3-margin w3-large"></i>508-404-6354
                     </div>
                 </div>
                 <div class="w3-padding">
-                    <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="window.open('mailto:logan.piepmeier@gmail.com','_self')">
+                    <div class="w3-card-4 blue-0 w3-hover-grey" onclick="window.open('mailto:logan.piepmeier@gmail.com','_self')">
                         <i class="fa fa-envelope w3-margin w3-large"></i>logan.piepmeier@gmail.com
                     </div>
                 </div>
                 <div class="w3-padding">
-                    <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="window.open('https://www.linkedin.com/in/logan-piepmeier-09545b25/')">
+                    <div class="w3-card-4 blue-0 w3-hover-grey" onclick="window.open('https://www.linkedin.com/in/logan-piepmeier-09545b25/')">
                         <i class="fa fa-linkedin w3-margin w3-large"></i>LinkedIn
                     </div>
                 </div>                
                 <div class="w3-padding">
-                    <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="window.open('https://my-contributions.github.io/?author=lpiep')">
+                    <div class="w3-card-4 blue-0 w3-hover-grey" onclick="window.open('https://github.com/lpiep')">
                         <i class="fa fa-github w3-margin w3-large"></i>Github
                     </div>
                 </div>
 
                 <div class="w3-padding">
-                    <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="document.getElementById('about').style.display='block'">
+                    <div class="w3-card-4 blue-0 w3-hover-grey" onclick="document.getElementById('about').style.display='block'">
                         <i class="fas fa-question w3-margin w3-large"></i>About this page
                     </div>
                 </div>
                 <div id="about" class="w3-modal">
                     <div class="w3-modal-content">
-                        <div class="w3-container w3-light-grey">
+                        <div class="w3-container purple-0">
                             <span onclick="document.getElementById('about').style.display='none'" class="w3-button w3-display-topright">&times;</span>
                             <h1>About this Page</h1>
                             <p>
@@ -84,150 +96,41 @@
             </div>
         </div>
         <div class="w3-twothird">
+            <!--Tutoring Form-->
             <div class="w3-container">
-                <h2>
-                    What I Can Do
-                </h2>
-                <h6>
-                    Click each for more information.
-                </h6>
                 <div class="w3-padding">
-
-                    <!-- Python -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="document.getElementById('skill-python').style.display='block'"><i class="fab fa-python w3-margin w3-large"></i>Python</div>
-                    </div>
-                    <div id="skill-python" class="w3-modal">
-                        <div class="w3-modal-content">
-                            <div class="w3-container w3-light-grey">
-                                <span onclick="document.getElementById('skill-python').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <h1>Python</h1>
-                                <p>
-                                    I've used Python as my go-to general purpose programming language. I’ve built simple scripts to make my life easier, utilities to access APIs and to load and transform data, and scripts to automate GIS tasks in the ArcPy library for ArcGIS.
-                                </p>
-                                <p>
-                                    I am interested in learning more about performing data analysis in Python using the Pandas and Numpy libraries, and hope to find time to study this on my own soon.
-                                </p>
-                            </div>
+                    <div class="w3-container w3-card-4"> 
+                        <div class="w3-row w3-margin w3-padding w3-card-4 purple-0">
+                            <h2>Interested in Tutoring?</h2>
                         </div>
-                    </div>
-
-                    <!-- R -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="document.getElementById('skill-r').style.display='block'"><i class="fab fa-r-project w3-margin w3-large"></i>R</div>
-                    </div>
-                    <div id="skill-r" class="w3-modal">
-                        <div class="w3-modal-content">
-                            <div class="w3-container w3-light-grey">
-                                <h1>R</h1>
+                        <div class="w3-padding">
+                            <div class="w3-container w3-row">
                                 <p>
-                                    I've used R extensively in my work for exploratory analyses, data processing pipelines, visualizations, and dashboards. I like working in the TidyR set of packages and using ggplot2 for visualization. I've also worked with geographic data in R.
+                                    There is an incredible wealth of resources for learning R and data science online: Blogs, Youtube videos, E-books, etc. Many of these are excellent resources and I encourage anyone learning R to make full use of them. 
                                 </p>
                                 <p>
-                                    At UW and Ecotope, I used R to set up data pipelines to process data from sensor networks and to build dashboards in Shiny to display real-time visualizations of that data as well as R Markdown to create dynamic reports that automatically update to include the latest data.
-                                </p>
-                                <hr />
-                                <p class="w3-center w3-small">
-                                    A screenshot of an R Shiny Dashboard I worked extensively on to monitor experimental water heating equipment:
-                                </p>
-                                <div class="w3-card-4 w3-padding">
-                                    <img src="shiny-example.png" class="w3-image">
-                                </div>
-
-
-                                <span onclick="document.getElementById('skill-r').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- SQL -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4 w3-light-grey w3-hover-green" onclick="document.getElementById('skill-sql').style.display='block'"><i class="fas fa-database w3-margin w3-large"></i>SQL</div>
-                    </div>
-                    <div id="skill-sql" class="w3-modal">
-                        <div class="w3-modal-content">
-                            <div class="w3-container w3-light-grey">
-                                <span onclick="document.getElementById('skill-sql').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <h1>SQL</h1>
-                                <p>
-                                    I’ve worked with MySQL and PostgreSQL databases, including the PostGIS spatial extension of PostgreSQL.
+                                    However, you may know that you learn best when you can have a two-way conversation. You might want help deciding which of the huge variety of tools make sense to learn for your work. Maybe you have a particular project you just can’t figure out how to put together. 
                                 </p>
                                 <p>
-                                    My most in-depth SQL work was at the University of Washington. I maintained a large database that included spatial information, study participant info (including protected personally identifiable information), and air pollution exposure model outputs. I constructed complex queries to provide researchers with customized datasets. I also identified new datasets to incorporate into our database and processed them for compatibility with our system.
+                                    I have years of experience using R daily in my work. I'm here to walk you through the concepts of R programming or to help you with any questions you may have about doing data science with R.
                                 </p>
-                                <p>
-                                    I led a project to build a PostgreSQL spatial database (PostGIS) in order to more efficiently store and analyze our spatial data, resulting in significantly increased efficiency in calculating geographic model inputs and therefore a quicker turnaround time for producing model outputs.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- CAD -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4  w3-light-grey w3-hover-green" onclick="document.getElementById('skill-cad').style.display='block'"><i class="fas fa-drafting-compass w3-margin w3-large"></i>CAD</div>
-                    </div>
-                    <div id="skill-cad" class="w3-modal">
-                        <div class="w3-modal-content">
-                            <div class="w3-container w3-light-grey">
-                                <span onclick="document.getElementById('skill-cad').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <h1>CAD</h1>
-                                <p>I have experience using CAD software to design custom bicycle frames and small parts for production. The majority of my work has been 2D schematics for use by bicycle frame builders, fitters, and assemblers. I have also produced 3D CAD drawings for production 3D-printed/injection-molded parts.</p>
-                                <p>I have experience working in Solidworks and Vectorworks.</p>
-
-                                <hr />
-                                <p class="w3-center w3-small">
-                                    An example bicycle fit drawing:
-                                </p>
-                                <div class="w3-card-4">
-
-                                    <img src="cad-example.png" alt="CAD Example" style="width:100%" class="w3-image" />
-
+                                <div
+                                <div class="w3-container rose-0 w3-hover-grey w3-cell-row w3-center" onclick="window.open('mailto:logan.piepmeier@gmail.com','_self')">
+                                    <div class="w3-cell w3-padding-16 w3-mobile"><i class = "fa fa-envelope w3-padding"></i>Reach out to schedule a free, in-person intro session in Bellingham, WA.</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- GIS -->
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4  w3-light-grey w3-hover-green" onclick="document.getElementById('skill-gis').style.display='block'"><i class="fas fa-globe-americas w3-margin w3-large"></i>GIS</div>
-                    </div>
-                    <div id="skill-gis" class="w3-modal">
-                        <div class="w3-modal-content">
-                            <div class="w3-container w3-light-grey">
-                                <span onclick="document.getElementById('skill-gis').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <h1>GIS</h1>
-                                <p>
-                                    I’ve worked primarily in ArcGIS, including scripting with the ArcPy Python package. I also work in R using a variety of geographic libraries and am familiar with the PostGIS extension for the PostgreSQL database backend (see my “SQL” skill section).
-                                </p>
-                                <p>
-                                    I’ve produced interactive and static maps for use in data quality control, but I’m interested in improving my skills at creating “prettier”, ready-to-publish maps and interactives.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Data Viz
-                    <div class="w3-third w3-padding">
-                        <div class="w3-card-4  w3-light-grey w3-hover-green" onclick="document.getElementById('skill-viz').style.display='block'"><i class="fas fa-chart-line w3-margin w3-large"></i>Data Visualization</div>
-                    </div>
-                    <div id="skill-viz" class="w3-modal">
-                        <div class="w3-modal-content">
-                            <div class="w3-container w3-light-grey">
-                                <span onclick="document.getElementById('skill-viz').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <h1>Data Visualization</h1>
-                                <p>Data Viz is cool.</p>
-                            </div>
-                        </div>
-                    </div>
-                    -->
                 </div>
             </div>
             <!--Job History -->
             <div class="w3-container">
-                <h2>Where I've Worked</h2>
-                <h6>Highlighted Experience</h6>
                 <div class="w3-padding">
-                    <div class="w3-container w3-card-4 w3-light-grey">
+                    <div class="w3-container w3-card-4"> 
+                        <div class="w3-row w3-margin w3-padding w3-card-4 purple-0">
+                            <h2>Where I've Worked</h2>
+                            <h6>Highlighted Experience</h6>
+                        </div>
                         <!--UW-->
                         <div class="w3-row">
                             <div class="w3-third w3-padding w3-right-align">
@@ -299,12 +202,18 @@
                 </div>
             </div>
             <div class="w3-container">
-                <h2>Where I Went to School</h2>
                 <div class="w3-padding">
-                    <div class="w3-container w3-card-4  w3-light-grey">
-                        <h4>University of Vermont</h4>
-                        <h5>College of Engineering and Mathematical Sciences</h5>
-                        <h6>B.S. Applied Mathematics - 2011</h6>
+                    <div class="w3-container w3-card-4"> 
+                        <div class="w3-row w3-margin w3-padding purple-0 w3-card-4">
+                            <h2>Where I Went to School</h2>
+                        </div>
+                        <div class="w3-padding">
+                            <div class="w3-container w3-row">
+                                <h4>University of Vermont</h4>
+                                <h5>College of Engineering and Mathematical Sciences</h5>
+                                <h6>B.S. Applied Mathematics - 2011</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
